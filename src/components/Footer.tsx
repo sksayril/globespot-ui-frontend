@@ -117,13 +117,13 @@ const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
                 <Mail className="h-5 w-5 text-blue-400" />
                 <span className="text-gray-300">support@goalsbot.com</span>
               </div>
-              <div className="flex items-start space-x-3">
+              {/* <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-blue-400 mt-1" />
                 <span className="text-gray-300">
                   123 Business Ave, Suite 100<br />
                   New York, NY 10001
                 </span>
-              </div>
+              </div> */}
             </div>
           </motion.div>
         </div>
