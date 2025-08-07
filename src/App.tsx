@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Investment from './components/Investment';
 import Earnings from './components/Earnings';
+import DownloadSection from './components/DownloadSection';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -37,6 +38,9 @@ function App() {
         </section>
         <section id="earnings">
           <Earnings />
+        </section>
+        <section id="download">
+          <DownloadSection />
         </section>
         <section id="contact">
           <Contact />

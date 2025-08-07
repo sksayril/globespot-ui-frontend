@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, TrendingUp, Users, DollarSign } from 'lucide-react';
+import APKDownloadButton from './APKDownloadButton';
 
 const Hero: React.FC = () => {
   return (
@@ -49,6 +50,8 @@ const Hero: React.FC = () => {
                 <span>Start Earning Now</span>
                 <ArrowRight className="h-5 w-5" />
               </motion.button>
+              
+              <APKDownloadButton />
             </motion.div>
           </div>
 

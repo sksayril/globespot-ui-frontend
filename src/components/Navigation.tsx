@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, X, Users, TrendingUp, Phone, Info, Home, DollarSign } from 'lucide-react';
+import { Menu, X, Users, TrendingUp, Phone, Info, Home, DollarSign, Download } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 interface NavigationProps {
@@ -18,6 +18,7 @@ const Navigation: React.FC<NavigationProps> = ({
     { id: 'about', label: 'About Us', icon: Info },
     { id: 'investment', label: 'Investment', icon: DollarSign },
     { id: 'earnings', label: 'Earnings', icon: TrendingUp },
+    { id: 'download', label: 'Download App', icon: Download },
     { id: 'contact', label: 'Contact', icon: Phone },
   ];
 

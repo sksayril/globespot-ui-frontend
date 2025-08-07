@@ -12,6 +12,7 @@ const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
     { id: 'about', label: 'About Us' },
     { id: 'investment', label: 'Investment' },
     { id: 'earnings', label: 'Earnings' },
+    { id: 'download', label: 'Download App' },
     { id: 'contact', label: 'Contact' },
   ];
 
